@@ -1,0 +1,49 @@
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    max-width:350px;
+    margin-bottom: 10px;
+    background-color:rgb(14, 172, 14);
+    transition: background-color r 0.3s ease;
+}
+.button1:hover{
+    background-color:rgb(8, 105, 8);
+}
+.button2{
+    max-width:350px;
+    margin-bottom: 10px;
+    background-color:rgb(45, 45, 180);
+    transition: background-color 0.3s  ease-in-out;
+}
+ .button2:hover{
+    background-color: rgb(15, 15, 84);
+} 
+.body{
+    padding-top: 35px;
+}
+
+.body-text{
+    justify-items: flex-start;
+}
+.tablet{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color:rgb(227, 223, 223);
+}
+.footer-image{
+    display: flex;
+    justify-content:center;
+}
+.footer-image2{
+    display: flex;
+    justify-content: start;
+}
+.boy{
+    word-wrap: break-word;
+    justify-content: center;
+    justify-items: start;
+}
