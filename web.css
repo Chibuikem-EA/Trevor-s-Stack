@@ -1,0 +1,102 @@
+.highlight{
+    color: orange;
+    font-weight: bold;
+}
+.purple-text{
+    color: rgb(151, 13, 151);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero{
+    justify-content: space-between;
+    max-width: 2000px;
+    position: relative;
+    padding: 50px;
+}
+.container{
+    justify-content: space-between;
+    max-width: 50px;
+}
+.hero-text{
+    max-width: 50%;
+}
+.hero-img{
+    width: 450px;
+    height: auto;
+}
+.info-box{
+    width: 80%;
+    max-width: 350px;
+    padding: 10px;
+    margin: 5px;
+    align-content: center;
+    justify-content: space-between;
+}
+.card-body{
+    text-align: start;
+     border-radius: 100rem;
+}
+.fourth-container{
+    padding: 50px;
+}
+.first-box{
+    position: relative;
+    padding-left: 100px;
+}
+.fifth-container{
+   padding: 50px;
+
+}
+.second-box{
+    align-items: start;
+    text-align: start;
+    position: relative;
+    padding-left: 100px;
+}
+.feature-image{
+    width: 400px;
+}
+.feature-images{
+    width: 400px;
+    height: auto;
+}
+.sixth-container{
+    padding: 50px;
+     position: relative;
+    padding-right: 40px;
+}
+
+.box-title{
+    font-size: small;
+}
+.seventh-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 50px;
+    max-width: 2000px;
+}
+.fourth-box{
+    align-items: start;
+    text-align: start;
+}
+.end-image{
+display:flex;
+width: 450px;
+height:550px;
+}
+.second-card{
+    position: relative;
+    padding-top: 100px;
+    width:450px;
+    height:150px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 30px;
+}
+.divider{
+    border-right: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}

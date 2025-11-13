@@ -3,176 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chibuikem</title>
+    <meta name="describition" content="demo">
+    <title>Chibuikem's Demo</title>
+    <link href="web.css" type="text/css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="zf.css" type="text/css" rel="stylesheet">
-</head> 
+</head>
 <body>
-<header class="hero">
-        <div class="container-fluid">
-            <div class=" bg-image">
-                <img src="img/bg-header-desktop.png" alt="background image">
+    <section class="hero bg-primary">
+        <section id="home" >
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <span class="highlight">WorkTeams</span> </a>
+                <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" 
+                data-target="#navbarNav">
+            <span class="navrbar-toggler-icon"></span>
+         </button>
+         <ul class="navbar-nav text-white ">
+            <li class="nav-item"><a class="nav-link me-3" href="#home"><span class="highlight">Home</span> </a> </li>
+            <li class="nav-item"><a class="nav-link me-3" href="#features"> <span class="highlight">Our features</span></a></li>
+            <li class="nav-item"><a class="nav-link me-3" href="#testimonial"><span class="highlight"> Testimonial</span></a></li>
+            <a href="signup.html" class="btn btn-warning ms-5"> Get Started</a>
+        </ul>
             </div>
-            <div class="logo">
-                <img src="img/logo.svg">
-            </div>
-            <div class=" hero-text text-center">
-                <h2 class="text-dark">
-                    A history of everything you copy
-                </h2>
-                <p class=" boy text-muted">
-                    Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices
-                </p>
-            </div>
-            <div class="first-links mt-4  ">
-                <div class="row">
-                    <div class="col-md-6 ">
-                        <button class="button1 mx-auto form-control rounded-pill  text-white"> Download for iOS</button>
-                    </div>
-                    <div class="col-md-6">
-                        <button class="button2 mx-auto form-control rounded-pill text-white"> Download for Mac</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-</header>
-
-<section class="body mt-4">
-    <div class="container-fluid">
-      <div class="body">
-        <h3 class="text-center text-dark">
-            Keep tracks of your Snippets
-        </h3>
-        <p class=" boy text-center text-muted mt-2">
-            Clipboard Instantly stores any item you copy in the cloud, meaning you can access  your snippets immediately on all your <br> devices. Our Mac and iOS apps will help you organize everything.
-        </p>
-    <div class="row">
-        <div class="col-md-7 mt-4">
-            <div class="body-image float-end  p-4 ">
-                <img src="img/image-computer.png" alt="computer image" width="600px" height="350px">
-            </div>
-        </div>
-        <div class="col-md-5">
-            <div class="body-text text-dark p-4 mt-5">
-                <h5> Quick Search</h5>
-                <p class="text-muted">
-                    Easily search your snippets by content, <br> category, web address, application, and more.
-                </p>
-                <h5 class="mt-3"> ICloud Sync</h5>
-                <p class="text-muted ">
-                    Instantly saves and syncs snippets across all<br> your devices.
-                </p>
-                <h5 class="mt-3"> Complete History</h5>
-                <p class="text-muted"> Retrieve any snippets from the first moment<br> you started using the app</p>
-            </div>
-        </div>
-    </div>
-            <h4 class="text-dark text-center mt-3 ">
-                Access Clipboard anywhere.
-            </h4>
-                <p class=" boy text-muted text-center">
-                    Whether you're on the go, or at your computer, you can access all your clipboard snippets in a few simple clicks.
-                </p>
-            <div class="tablet p-4">
-                <img src="img/image-devices.png " alt="device" width="650px">
-            </div>
-      </div><!--body-->
-    </div><!--container-->
-</section>
- <section class="bottom">
-    <div class="container-fluid p-3">
-        <h4 class="bottom-text text-dark text-center">
-            Supercharge your workflow
-        </h4>
-            <p class="text-muted text-center "> We've got the tools to boost your productivity<p>
-        <div class="text-center text-dark p-4">
+        </nav>
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-md-4 mt-2">
-                    <img src="img/icon-blacklist.svg" alt="blacklist">
-                    <h4> Create blacklists</h4>
-                    <p class="text-muted">Ensure sensitive information never makes its <br> way to your clipboard by excluding certain <br> sources.</p>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <img src="img/icon-text.svg" alt="icon text">
-                     <h4>Plain text snippets</h4>
-                     <p class=" text-muted">Remove unwanted formatting from copied text<br> for a consistent look.</p>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <img src="img/icon-preview.svg" alt="preview">
-                    <h4> Sneak preview</h4>
-                    <p class="small text-muted">Quick preview of all snippets on your clipboard <br> for easy access.</p>
-                </div>
-            </div>
-        <div class="bottm-image mt-4 ">
-            <div class="row">
-                <div class="col-md-3 mt-4">
-                    <img src="img/logo-google.png" alt="google image">
-                </div>
-                <div class="col-md-2 mt-4">
-                    <img src="img/logo-ibm.png" alt="ibm image">
-                </div>
-                 <div class="col-md-2 mt-4">
-                    <img src="img/logo-microsoft.png" alt="microsoft image">
-                </div>
-                <div class="col-md-2 mt-4">
-                    <img src="img/logo-hp.png" alt="hp image">
-                </div>
-                <div class="col-md-3 mt-4">
-                    <img src="img/logo-vector-graphics.png" alt="Vector image">
-                </div>
-            </div>
-        </div>
-        <div class="bottom-text2 p-5">
-            <h4>Clipboard for iOs and Mac OS</h4>
-            <p class="text-muted small"> Available for free on the app store. Download for Mac or iOS, sync with ICloud and <br> you're ready to start adding to your clipboard.</p>
-                <div class="first-links mt-4  ">
-                <div class="row">
-                    <div class="col-md-6 ">
-                        <button class="button1 mx-auto form-control rounded-pill  text-white"> Download for iOS</button>
-                    </div>
-                    <div class="col-md-6">
-                        <button class="button2 mx-auto form-control rounded-pill text-white"> Download for Mac</button>
-                    </div>
-                </div>
-            </div>
-        </div> 
-        </div>
-    </div>
- </section>
- <section class="footer">
-    <div class="container-fluid p-4">
-        <div class="footer">
-            <div class="row">
-                <div class="col-md-2 m-2">
-                    <div class="footer-image">
-                        <img src="img/logo.svg" alt="main logo" width="50px">
-                    </div>    
-                </div>
                 <div class="col-md-6">
-                    <div class="footer-link">
-                        <a href="#" class="divider text-dark text-decoration-none p-4" > FAQS</a>
-                        <a href="#" class="divider text-dark text-decoration-none p-4"> Privacy Policy</a>
-                        <a href="#" class="divider text-dark text-decoration-none p-4">  Install Guide</a>
-                        <br>
-                        <br>
-                        <a href="#" class="divider text-dark text-decoration-none p-4"> Contact Us</a>
-                        <a href="#" class="divider text-dark text-decoration-none  p-4">  Press Kit</a>
+                    <div class="hero-text mx-auto">
+                        <h2> Turning <span class="highlight">'me'</span> goals into,<br> <span class="highlight">'we'</span> achievement </h2> 
+                        <p>Boost productivity and peace of mind with WorkTeams the ultimate task manager and to do list app.</p>
+                        <button class="btn btn-warning"> Join for Free</button>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="footer-image2">
-                        <img src="img/icon-facebook.svg" class="p-4">
-                        <img src="img/icon-twitter.svg" class="p-4">
-                        <img src="img/icon-instagram.svg" class="p-4">
+            <div class="col-md-6">
+                <div class="hero-img">
+                    <img src="../img/welcome.png" alt="First image" class="hero-img"  >
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="info mt-5" >
+        <div class=" First-container text-center">
+            <h3 class="purple-text"> Clear your Mind</h3>
+            <p> We make project management easy! No need to spend hours <br>learning complex software or training your team. Get started in<br>minutes with WorkTeams. Sign up today</p>
+            <div class="row mt-5">
+            <div class="col-sm-4">
+            <div class="info-box mx-auto bg-light shadow-lg offset-md-1 p-1 ">
+                 <h4 class="purple-text" > Breaks tasks Down into<br>simple steps. </h4>
+                <p class=""> Efficently tackle tasks,reduce<br>overwhelm,boast focus and<br> achieve milestones effortlessly</p>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="info-box mx-auto bg-light shadow-lg offset-md-1  p-1  ">
+                <h4 class="purple-text">Automate tracking,gain<br>insights,stay moltivated</h4>
+                <p>Effortlessly monitor progress,gain<br> insights and stay moltivated with<br>automated tracking features</p>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="info-box mx-auto bg-light shadow-lg offset-md-1 p-1">
+                <h4 class="purple-text">Assign partners for <br> feedback and support</h4>
+                <p> Enhance collaboration, communication,<br> and accountability with assigned Users<br>for feedback and suppport</p>
+            </div>
+            </div>
+            <div class="second-container text-center mt-5">
+                <h3 class="purple-text">  What is <span class="highlight">WorkTeams?</span> </h3>
+                <p>WorkTeams is a task management application, providing users with seamless organization,<br>progress tracking, accountability. Users benefit from simplified task breakdowns,<br>automated progress tracking for insights and motivation, and the ability to assign<br> accountabilty partners for feedback and support.
+                </p>
+            </div>
+        </section>
+    <section class="Our features">
+        <section id="features">
+            <div class="third-container text-center mt-5">
+                <h3 class="purple-text">Our<span class="highlight">Features</span></h3>
+                <p>This extraordinary features, can make project management more efficent.</p>
+            </div>
+            <div class="fourth-container mt-5">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="first-box ">
+                            <h4 class="purple-text"> Break tasks into <br> <span class="highlight">manageable</span>,small steps</h4>
+                                <p class="text22"> Simplifies complex tasks,aiding <br> comprehension and smoother execution</p>
+                                <p class="text22"> Promotes a sense of achievement with achievable milestones</p>
+                                <p class="text22">Enables better time management,prioritization, and overall productivity.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card shadow-lg  " style="width: 22rem; height:12rem;">
+                            <div class="card-body">
+                                <h4 class=>My tasks</h4> 
+                                <ul class="list unstyled">
+                                <li><input type="checkbox"> update software</li>
+                                <li><input type="checkbox"> Troubleshoot network issues</li>
+                                <li><input type="checkbox">Install new hardware components</li>
+                                </ul>
+                            <div class="progress mt-2"style="height:10px;">
+                                <div class="progress-bar bg-primary" role="progress-bar" style="width:33%;" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </div>
+            <div class="fifth-container mt-5">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="second-box">
+                             <h4 class="purple-text"> Automate <span class="highlight">tracking</span> for<br> insights and motivaion </h4> 
+                            <p > Effortlessly monitor progress, gain insights, and <br> stay motivated, ensuring tasks are copmleted <br> efficently with automated <br> tracking</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature-image ">
+                            <img src="../img/download.jpg" alt="graph image" width="400px">
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="sixth-container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="feature-images">
+                            <img src="../img/bye.png"alt="review">
+                        </div> 
+                    </div>
+                    <div class="col-md-5">
+                        <div class="third-box mt-5 p-10 ">
+                            <h4 class="purple-text"> Assign <span class="highlight">partners</span> for feedback,<br> support, accountability</h4>
+                            <p> Assigning partners for feeback, support, and accountability, faster collaboration, improves communication boosts motivation, and enhances overall task performance</p>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </section>
+    </section>
+    <section class="end">
+        <section id="testimonial">
+            <div class="seventh-container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="fourth-box offset-md-1">
+                        <p>&mdash;TESTIMONIALS</p>
+                        <h2 class="purple-text"> What They Say</h2>
+                        <p> Users are raving about the WorkTeams app! They love how it effortlessly streamlines project management, from organizing tasks to tracking progress</p>
+                        <p> With features like automated tracking and partner assignments for feedback, WorkTeams is hailed as a game-changer for boosting productivity and  accountability.</p>
+                        <button class="btn btn-warning mt-5 " > <a href="signup.html" class="text-decoration-none" > Join them today</a> </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="end-image position-relative offset-md-2" > <img src="../img/isaiah-mcclean-DrVJk1EaPSc-unsplash.jpg" alt="background image">
+                        </div>
+                        <div class="second-card shadow-lg">
+                            <p> WorkTeams is a game-changer! Intuitive interface, automated tracking, and partner assignments boosted productivity and accountabilty. Highly recommend it. </p>
+                            <div class="name"> 
+                                <h6>Juliet Evan<span class="text-warning offset-md-8">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer class="bg bg-primary text-white py-4">
+        <div class=" nineth-container text-center">
+            <h5> WorkTeams </h5>
+            <p class="mb-3"> Empower.Achieve.Collaborate.</p>
+            <p>Subscribe to our newsletter.</p>
+            <label for="email bg-primary "></label> <input type="email" id="email" placeholder="Your Email">
+            <button class="btn btn-warning px-2"> Subscribe</button>
+            <div class="links">
+                <a href="#" class="divider text-white text-decoration-none" > Courses</a>
+                <a href="#" class="divider text-white text-decoration-none">  Privacy Policy</a>
+                <a href="#" class="divider text-white text-decoration-none ">  Terms and Conditions</a>
+            </div>
+            <p class=" mt-3">&copy; 2024 WorkTeams Technologies</p>
         </div>
-    </div>
- </section>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
